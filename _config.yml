@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Parag Meshram's Blog"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Parag Meshram"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -35,9 +35,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "ParagMeshram"
 facebook:
-  username               :
+  username               : "parag.meshram"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -61,12 +61,12 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Parag Meshram"
   avatar           : "bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
-  uri              :
+  location         : "Pune, India"
+  email            : "parag.meshram@hotmail.com"
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
@@ -81,7 +81,7 @@ author:
   linkedin         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "http://stackoverflow.com/users/158207/parag-meshram"
   steam            :
   tumblr           :
   twitter          :
