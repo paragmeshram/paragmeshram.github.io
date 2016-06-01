@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en"
 title                    : "Parag Meshram's Blog"
 title_separator          : "-"
 name                     : "Parag Meshram"
-description              : "An amazing website."
+description              : "A personal programming and coding blog on technologies like C#, ASP.NET, RESTful Service, Design, Architecture, SOLID Design Principles"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -63,7 +63,7 @@ google_ad_slot           :
 author:
   name             : "Parag Meshram"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "I am an enthusiastic full-stack developer, architect and C# programming language fan"
   location         : "Pune, India"
   email            : "parag.meshram@hotmail.com"
   uri              : 
