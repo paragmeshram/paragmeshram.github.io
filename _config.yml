@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Parag Meshram's Blog"
 title_separator          : "-"
 name                     : "Parag Meshram"
-description              : "A personal programming and coding blog on technologies like C#, ASP.NET, RESTful Service, Design, Architecture, SOLID Design Principles"
+description              : "A personal programming and coding blog on technologies like C#, ASP.NET, RESTful Service, Design, Architecture, SOLID Design Principles. I am an enthusiastic full-stack developer, specializing in .NET and related technologies. I enjoy designing and creating elegant solutions to challenging problems; using the right technology stack and methodology"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -63,7 +63,7 @@ google_ad_slot           :
 author:
   name             : "Parag Meshram"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an enthusiastic full-stack developer, specializing in .NET and related technologies. I enjoy designing and creating elegant solutions to challenging problems; using the right technology stack and methodology."
+  bio              : "I am an enthusiastic full-stack developer, specializing in .NET and related technologies. I enjoy designing and creating elegant solutions to challenging problems; using the right technology stack and methodology"
   location         : "Pune, India"
   email            : 
   uri              : 
