@@ -7,6 +7,16 @@
 }
 
 .masthead__inner-wrap {
-  //text-transform: uppercase;
-  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+// .author__bio {
+//     @include breakpoint($medium) {
+//         display: inline-block;
+//         max-width: $max-width;
+//         overflow: hidden;
+//         text-overflow: ellipsis;
+//         white-space: nowrap;
+//     }
 }
