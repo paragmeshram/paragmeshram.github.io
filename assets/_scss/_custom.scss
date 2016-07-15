@@ -1,15 +1,27 @@
-// .greedy-nav .visible-links li:last-child a {
-//      //margin-left: 5px; 
+.greedy-nav a {
+  text-transform: uppercase;
+}
+
+// .greedy-nav .visible-links li:nth-child(2) a {
+//      margin-left: 32px; 
 // }
 
 .archive__item-title:nth-of-type(1) { 
     margin-top: 10px;
 }
 
-.masthead__inner-wrap {
-  //text-transform: uppercase;
+
+.masthead__menu-item {
   font-weight: 700;
+  font-size: 16px;
 }
+
+.masthead__menu-item--lg {
+  padding-right: 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+
 
 // .author__bio {
 //     @include breakpoint($medium) {

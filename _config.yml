@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Parag Meshram Blog"
+title                    : "Parag Meshram&#39;s Blog"
 title_separator          : "-"
 name                     : &name "Parag Meshram"
 description              : &description "A personal programming and coding blog on technologies like C#, ASP.NET, RESTful Service, Design, Architecture, SOLID Design Principles. I am an enthusiastic full-stack developer, specializing in .NET and related technologies. I enjoy designing and creating elegant solutions to challenging problems; using the right technology stack and methodology"
