@@ -23,6 +23,14 @@
 }
 
 
+.greedy-nav {
+  @include breakpoint(min-width $medium) {
+    .masthead__menu-item--lg {
+      font-size: 18px;
+    }
+  }
+}
+
 // .author__bio {
 //     @include breakpoint($medium) {
 //         display: inline-block;
