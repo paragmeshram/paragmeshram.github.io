@@ -2,9 +2,9 @@
   text-transform: uppercase;
 }
 
-// .greedy-nav .visible-links li:nth-child(2) a {
-//      margin-left: 32px; 
-// }
+.greedy-nav .visible-links li:nth-child(2) a {
+     margin-left: 45px; 
+}
 
 .archive__item-title:nth-of-type(1) { 
     margin-top: 10px;
@@ -19,7 +19,7 @@
 .masthead__menu-item--lg {
   padding-right: 0;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 
@@ -33,6 +33,6 @@
 //     }
 //}
 
-body {
-  min-width: 320px;
-}
+// body {
+//   min-width: 320px;
+// }
