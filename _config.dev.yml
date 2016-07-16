@@ -1,0 +1,11 @@
+# Develop override settings
+
+url: 
+
+analytics:
+  provider: false
+
+comments:
+  provider: false
+  disqus: 
+    shortname : 
