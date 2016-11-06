@@ -1,11 +1,9 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
+excerpt: "I am an enthusiastic full-stack developer, specializing in .NET and related technologies. I enjoy designing and creating elegant solutions to challenging problems; using the right technology stack and methodology"
 ---
 
 {% include base_path %}
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
-
-Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
+I am an enthusiastic full-stack developer, specializing in .NET and related technologies. I enjoy designing and creating elegant solutions to challenging problems; using the right technology stack and methodology.
