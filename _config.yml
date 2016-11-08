@@ -11,7 +11,7 @@ title                    : "Parag Meshram&#39;s Blog"
 title_separator          : "-"
 name                     : &name "Parag Meshram"
 description              : &description "A personal programming and coding blog on technologies like C#, ASP.NET, RESTful Service, Design, Architecture, SOLID Design Principles. I am an enthusiastic full-stack developer, specializing in .NET and related technologies. I enjoy designing and creating elegant solutions to challenging problems; using the right technology stack and methodology"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://paragmeshram.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
