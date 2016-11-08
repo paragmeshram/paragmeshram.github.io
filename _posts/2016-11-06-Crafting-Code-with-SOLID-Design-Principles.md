@@ -6,7 +6,7 @@ categories:
   - Design
   - Architecture
 tags:
-  -  Principles
+  -  Design Principles
   -  SOLID
   -  Architecture
 ---
