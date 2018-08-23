@@ -1485,7 +1485,7 @@ div.highlighter-rouge, figure.highlight {
   div.highlighter-rouge .highlight, figure.highlight .highlight {
     margin: 0;
     font-family: Monaco, Consolas, "Lucida Console", monospace;
-    font-size: 0.6875em;
+    font-size: 0.8em;
     line-height: 1.8; }
 
 .highlight table td {
@@ -2285,6 +2285,15 @@ select:focus {
   .page__taxonomy-item:hover {
     text-decoration: none;
     color: #3e8296; }
+
+.page__read-more {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 2px 5px;
+  text-decoration: none;
+  border: 1px solid #bdc1c4;
+  border-radius: 2px;
+  font-size: 14px; }
 
 /*
    Comments

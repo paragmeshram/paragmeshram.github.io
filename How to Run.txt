@@ -1,1 +1,55 @@
-bundle exec jekyll serve --watch --config "_config.yml,_config.dev.yml"
+How to install on Windows
+
+1. Make sure Powershell 3+(run $PSVersionTable check you Powershell Version) is installed, then run:
+
+iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+
+Note: if you get an error you might need to change the execution policy (i.e. enable Powershell) with Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+
+2. Install Ruby via scoop:
+
+scoop install ruby@2.4.3-1
+
+3. Install jekyll and bundle gems:
+
+gem install bundler
+
+ridk install 1 2 3
+
+gem install jekyll 
+
+4. Check if Jekyll installed properly:
+
+jekyll -v
+
+5. Installs bundles 
+
+bundle install
+
+6. scoop install msys2
+
+7. ridk install
+
+8. Running -
+
+bundle exec jekyll serve --watch --config "_config.yml,_config.dev.yml" --trace --drafts
+
+Watch for scss files -
+
+cd C:\Workspace\paragmeshram.github.io\assets
+sass --watch _scss:css
+
+------------------------------------------
+
+C:\Workspace\paragmeshram.github.io\assets    master± 
+λ sass --watch _scss:css
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+>>> Change detected to: _scss/_page.scss
+      write css/main.css
+      write css/main.css.map
+>>> Change detected to: _scss/_page.scss
+      write css/main.css
+      write css/main.css.map
+>>> Change detected to: _scss/_page.scss
+      write css/main.css
+      write css/main.css.map

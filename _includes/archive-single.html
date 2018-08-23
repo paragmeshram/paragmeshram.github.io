@@ -26,10 +26,22 @@
       {% endif %}
       <h2 class="archive__item-title" itemprop="headline">{% if post.id %}{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}{% else %}{{ post.title }}{% endif %}{% if post.link %}<i class="fa fa-star" aria-hidden="true"></i>{% endif %}</h2>
       {% if post.read_time %}
-        <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+        <p class="page__meta">
+            {% if post.modified %}
+            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i><time datetime="{{ post.modified | date: "%Y-%m-%d" }}"> {{ post.modified | date: "%B %d, %Y" }}</time>
+            {% elsif post.date %}
+            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i><time datetime="{{ post.date | date_to_xmlschema }}"> {{ post.date | date: "%B %d, %Y" }}</time>
+            {% endif %}
+            <span style="margin-left: 5px">
+            <i class="fa fa-clock-o" aria-hidden="true"></i> 
+            {% include read-time.html %}
+           </span>
+        </p>
       {% endif %}
       {% if post.excerpt and include.type == "grid" %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
-      {% if post.excerpt and include.type != "grid" %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+      {% if post.excerpt and include.type != "grid" %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }} <span><a href="{{ base_path }}{{ post.url }}" class="page__read-more">Continue Reading</a>
+      
+      </span></p>{% endif %}
     </article>
   </a>
 </div>
